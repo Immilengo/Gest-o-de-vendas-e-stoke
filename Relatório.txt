@@ -1,0 +1,41 @@
+Tema do projecto: Gestão de Loja de venda de produtos
+
+O QUE O PROJECTO FAZ?
+############################################Tela de Login
+--------------Facililando o logi------------------------------------------------------
+Entrar como Administrador=»» Nome de usuário:immilengo             Senha:imm
+Entrar como Funcionário comum=»» Nome de Usuário:twin		   Senha:mario
+------------Fim Facilitando o login----------------------------------------------------
+
+Eu personalisei o meu programa para iniciar logo na "tela de login" assim que clicamos em F6, dando a ele a função de método principal.
+A minha tela de login faz o login dinâmico, e faz a comparação dos campos para saber quem logou e acessar de acordo com os seus privilégios.
+E assim que um login é realizado com sucesso o programa grava no meu ficheiro "login.txt" o histórico do login efetuado e grava tambem no meu ficheiro "QuemEntrou.txt" o 
+privilégio da pessoa que logou(Administrador ou Funcionácio), e isto vai me possibilitar voltar para a tela anterior quando eu estiver no frame 'RealizarVenda'.  
+
+
+#############################################Processo da Venda
+O presente projecto consegue fazer a venda de produtos e o gerenciamento do estoke.
+Durante a venda o sistema consegue fazer coisas comuns que outros sistemas de gerenciamento de venda fazem como: adicionar ao carrinho,
+eliminar um determinado produto do carrinho, Cancelar venda.
+depois de adicionarmos ao carrinho todos os produtos desejados, devemos escolher o tipo de pagamento que o cliente fará. Assim que escolhermos a forma de pagamento
+"Dinheiro", o campo txtTroco ficará disponível e então devemos adicionar a quantidade em dinheiro que o cliente pagou, e depois devemos clicar no botão troco e então
+o troco será gerado. e por fim depois de sabermos o troco, devemos clicar no botão Gerar Factura para gerar o total da venda, gravar o histórico da venda realizada no meu ficheiro "Historico.txt"e criar a factura da venda realizada.
+outro promenor é que o programa faz a decrementação dos produtos da prateleira enquanto vamos adicionando ao carrinho, tendo assim um controle em tempo real.
+
+#############################################Gerenciamento de Stoke
+No meu frame Stoke é onde eu cadastro de novos produtos, elimino ou altero um determinado produto já cadastrado. 
+Caso queiras adicionar um novo produto a prateleira, devemos selecionar o produto que queremos adicionar na prateleira e depois clicarmos em 'adicionar a prateleira'
+e então este produto será adicionado na prateleira.
+Caso haja na prateleira um produto acabado(não sobrou nenhuma quantidade do mesmo produto), então podemos ir no estoke , selecionar o produto em que queremos adicinar uma nova quantidade na nossa prateleira e a seguir a quantidade de unidades que queremos actualizar na nossa pratelaira e então clicamos em 'adicionar a prateleira'.
+
+
+ATT: no ficheiro "CadastroProduto.txt" é onde se encontra os meus dados da prateleira.
+no ficheiro "Stoke.txt" é onde serão cadastrados os produtos.
+  
+#################################################EXAME
+No exame foi-me pedido para criar na 'tela principal' um menu EXAME com um submenu "Realizar consulta", mas por um mal entendimento da minha parte, eu criei um submenu "Exame" no meu menu já existente "MENUS" que quando for clicado chamará uma tela em que será realizada uma consulta(Apresentar todos os produtos produtos que irão expirar em 3 meses), e assim o fiz durante o exame.
+
+
+
+
+Obrigado, Inácio Mazanga Milengo.   

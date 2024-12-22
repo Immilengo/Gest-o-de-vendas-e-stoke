@@ -1,0 +1,5 @@
+Inácio Milengo;Angolano;Masculino;immilengo;imm;Administrador;07-03-2004; 
+Joana;Angolano;Masculino;joaninha;joia;Funcionário;14-02-2024;
+Lopes Texeira;Portugues;Masculino;twin;mario;Funcionário;19-08-2002;  
+Márcia Xirica;Brasileiro;Feminino;immilengo;mar;Funcionário;29-11-2003; 
+Paulo Peso;Guinense;Masculino;gross;pesado;Funcionário;20-11-2002; 
